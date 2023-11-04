@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      database: Sport
+      host: datastore-service
+      port: 27017
+server:
+  port: 9001

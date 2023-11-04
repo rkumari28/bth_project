@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+<div class="container">
+    <div><a href="/index"><img alt="Know Your Sports" class="img-rounded" src="logo.png" width="100%"></a></div>
+        <div ><meta charset="UTF-8">
+            <title>sports</title>
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script></div>
+    <div class="alert alert-success">
+        <span th:text="${successMessage}"></span>
+    </div>
+    <div class="list-group">
+        <a class="list-group-item list-group-item-action" href="/search">Search your sport</a>
+        <a class="list-group-item list-group-item-action" href="/add">Add a new sport</a>
+        <a class="list-group-item list-group-item-action" href="/showAll">List of all Available Sports</a>
+    </div>
+    <footer>
+        <div class="text-center">
+            © 2023 Copyright:
+            <a href="#">RUCHI KUMARI</a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
