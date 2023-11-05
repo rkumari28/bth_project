@@ -81,8 +81,7 @@ spec:
     spec:
       containers:
         - name: app-container
-          image: sportapp
-          imagePullPolicy: Never
+          image: rkumari28/sportapp
           ports:
             - containerPort: 8080
           env:
@@ -122,8 +121,7 @@ spec:
     spec:
       containers:
         - name: worker-container
-          image: sportworker
-          imagePullPolicy: Never
+          image: rkumari28/sportworker
           ports:
             - containerPort: 9001
           env:
